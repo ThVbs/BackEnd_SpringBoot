@@ -1,13 +1,13 @@
-package com.example.cadastroveiculos;
+package com.sa.cadastrostorage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CadastroveiculosApplication {
+public class CadastrostorageApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CadastroveiculosApplication.class, args);
+		SpringApplication.run(CadastrostorageApplication.class, args);
 	}
 
 }

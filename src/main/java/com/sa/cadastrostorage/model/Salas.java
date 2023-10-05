@@ -1,4 +1,4 @@
-package com.example.cadastroveiculos.model;
+package com.sa.cadastrostorage.model;
 import lombok.Getter;
 import lombok.Setter;
 import jakarta.persistence.*;
@@ -6,9 +6,11 @@ import jakarta.persistence.*;
 @Entity
 @Getter
 @Setter
-public class Categoria {
+public class Salas {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String nome;
+    private Long id_salas; 
+    private String quant_salas;
+    private String nome_salas;
+    
 }
